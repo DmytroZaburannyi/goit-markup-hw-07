@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HW-6</title>
+    <title>HW-7</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,41 +16,41 @@
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
     <header class="inner">
       <div class="header-inner container">
         <nav class="header-nav">
-          <a class="logo" href="index.html">
-            <span class="web">Web</span><span class="studio">Studio</span></a>
+          <a class="logo" href="index.html"
+            ><span class="web">Web</span><span class="studio">Studio</span></a>
 
           <ul class="header-nav__list">
             <li class="header-nav__link">
               <a href="index.html" class="link">Студія</a>
             </li>
-            <li class="header-nav__list_item">
-              <a href="portfolio.html" class="item active">Портфоліо</a>
+            <li class="header-nav__link">
+              <a href="portfolio.html" class="link active">Портфоліо</a>
             </li>
-            <li class="header-nav__list_item1">
-              <a href=".html" class="item1">Контакти</a>
+            <li class="header-nav__link">
+              <a href=".html" class="link">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="contacts">
-          <li class="mail">
-            <a href="mailto:info@devstudio.com" class="contact-mail">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contact-link">
               info@devstudio.com
-              <svg class="mail-icon" width="16" height="12">
-                <use href="./images/icon-m-t.svg#icon-mail"></use>
+              <svg class="contacts__icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-mail"></use>
               </svg>
             </a>
           </li>
-          <li class="tell">
-            <a href="tell:+380961111111" class="contact-tell">
+          <li class="contacts__item">
+            <a href="tell:+380961111111" class="contact-link">
               +38 096 111 11 11
-              <svg class="tell-icon" width="10" height="16">
-                <use href="./images/icon-m-t.svg#icon-tell"></use>
+              <svg class="contacts__icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-tell"></use>
               </svg>
             </a>
           </li>
@@ -61,22 +61,22 @@
     <main class="portfolio">
       <section class="btn-section">
         <div class="container">
-          <h1 class="portf">Портфоліо</h1>
-          <ul class="btn">
-            <li class="btn-active">
-              <button class="btn_1" type="button">Усі</button>
+          <h1 class="hidden">Портфоліо</h1>
+          <ul class="btn-list">
+            <li class="btn-item btn-active">
+              <button class="btn__row btn-1" type="button">Усі</button>
             </li>
-            <li class="btn1">
-              <button class="btn_2" type="button">Веб-сайти</button>
+            <li class="btn-item btn-active">
+              <button class="btn__row btn-2" type="button">Веб-сайти</button>
             </li>
-            <li class="btn2">
-              <button class="btn_3" type="button">Додатки</button>
+            <li class="btn-item btn-active">
+              <button class="btn__row btn-3" type="button">Додатки</button>
             </li>
-            <li class="btn3">
-              <button class="btn_4" type="button">Дизайн</button>
+            <li class="btn-item btn-active">
+              <button class="btn__row btn-4" type="button">Дизайн</button>
             </li>
-            <li class="btn4">
-              <button class="btn_5" type="button">Маркетинг</button>
+            <li class="btn-item">
+              <button class="btn__row btn-5" type="button">Маркетинг</button>
             </li>
           </ul>
         </div>
@@ -85,18 +85,18 @@
       <section class="project">
         <div class="container">
           <ul class="project-row">
-            <li class="list">
+            <li class="project-list">
               <a class="project-link" href="#">
                 <div class="overlay-img">
                   <img
-                    class="img-project1"
+                    class="img-project"
                     src="images/project1.jpg"
                     width="370"
                     height="294"
                     alt="сайт"
                   />
                   <div class="overlay-project">
-                    <p class="overlay-text1">
+                    <p class="overlay-desc">
                     Ресурс пропонує комплексні пропозиції
                     з різним рівнем функціоналу та сервісів. 
                     Все це дозволить відвідувачу отримати вичерпні 
@@ -114,14 +114,14 @@
               <a class="project-link" href="#">
                 <div class="overlay-img">
                   <img
-                    class="img-project2"
+                    class="img-project"
                     src="images/project2.jpg"
                     width="370"
                     height="294"
                     alt="спорт"
                   />
                   <div class="overlay-project">
-                    <p class="overlay-text1">
+                    <p class="overlay-desc">
                     Ресурс пропонує комплексні пропозиції
                     з різним рівнем функціоналу та сервісів. 
                     Все це дозволить відвідувачу отримати вичерпні 
@@ -139,14 +139,14 @@
               <a class="project-link" href="#">
                 <div class="overlay-img">
                   <img
-                    class="img-project3"
+                    class="img-project"
                     src="images/project3.jpg"
                     width="370"
                     height="294"
                     alt="акула"
                   />
                   <div class="overlay-project">
-                    <p class="overlay-text1">
+                    <p class="overlay-desc">
                     Ресурс пропонує комплексні пропозиції
                     з різним рівнем функціоналу та сервісів. 
                     Все це дозволить відвідувачу отримати вичерпні 
@@ -164,14 +164,14 @@
               <a class="project-link" href="#">
                 <div class="overlay-img">
                   <img
-                    class="img-project4"
+                    class="img-project"
                     src="images/project4.jpg"
                     width="370"
                     height="294"
                     alt="наушники"
                   />
                   <div class="overlay-project">
-                    <p class="overlay-text1">
+                    <p class="overlay-desc">
                     Ресурс пропонує комплексні пропозиції
                     з різним рівнем функціоналу та сервісів. 
                     Все це дозволить відвідувачу отримати вичерпні 
@@ -189,14 +189,14 @@
               <a class="project-link" href="#">
                 <div class="overlay-img">
                   <img
-                    class="img-project5"
+                    class="img-project"
                     src="images/project5.jpg"
                     width="370"
                     height="294"
                     alt="коробка"
                   />
                   <div class="overlay-project">
-                    <p class="overlay-text1">
+                    <p class="overlay-desc">
                     Ресурс пропонує комплексні пропозиції
                     з різним рівнем функціоналу та сервісів. 
                     Все це дозволить відвідувачу отримати вичерпні 
@@ -214,14 +214,14 @@
               <a class="project-link" href="#">
                 <div class="overlay-img">
                   <img
-                    class="img-project6"
+                    class="img-project"
                     src="images/project6.jpg"
                     width="370"
                     height="294"
                     alt="монiтор"
                   />
                   <div class="overlay-project">
-                    <p class="overlay-text1">
+                    <p class="overlay-desc">
                     Ресурс пропонує комплексні пропозиції
                     з різним рівнем функціоналу та сервісів. 
                     Все це дозволить відвідувачу отримати вичерпні 
@@ -239,14 +239,14 @@
               <a class="project-link" href="#">
                 <div class="overlay-img">
                   <img
-                    class="img-project7"
+                    class="img-project"
                     src="images/project7.jpg"
                     width="370"
                     height="294"
                     alt="книга"
                   />
                   <div class="overlay-project">
-                    <p class="overlay-text1">
+                    <p class="overlay-desc">
                     Ресурс пропонує комплексні пропозиції
                     з різним рівнем функціоналу та сервісів. 
                     Все це дозволить відвідувачу отримати вичерпні 
@@ -264,14 +264,14 @@
               <a class="project-link" href="#">
                 <div class="overlay-img">
                   <img
-                    class="img-project8"
+                    class="img-project"
                     src="images/project8.jpg"
                     width="370"
                     height="294"
                     alt="лейб"
                   />
                   <div class="overlay-project">
-                    <p class="overlay-text1">
+                    <p class="overlay-desc">
                     Ресурс пропонує комплексні пропозиції
                     з різним рівнем функціоналу та сервісів. 
                     Все це дозволить відвідувачу отримати вичерпні 
@@ -289,14 +289,14 @@
               <a class="project-link" href="#">
                 <div class="overlay-img">
                   <img
-                    class="img-project9"
+                    class="img-project"
                     src="images/project9.jpg"
                     width="370"
                     height="294"
                     alt="ноут"
                   />
                   <div class="overlay-project">
-                    <p class="overlay-text1">
+                    <p class="overlay-desc">
                     Ресурс пропонує комплексні пропозиції
                     з різним рівнем функціоналу та сервісів. 
                     Все це дозволить відвідувачу отримати вичерпні 
@@ -318,7 +318,7 @@
     <footer>
       <div class="address-container container">
         <a class="logo-address" href="index.html"
-          ><span class="web">Web</span><span class="studio1">Studio</span>
+          ><span class="web">Web</span><span class="studio-footer">Studio</span>
           </a>
         <address>
           <ul class="address">
@@ -346,25 +346,25 @@
             <li class="footer-insta">
               <a class="link-svg1" href="https://www.instagram.com" aria-label="instagram">
                 <svg class="icons" width="20" height="20">
-                  <use href="./images/social.svg#icon-instagram"></use></svg>
+                  <use href="./images/icons.svg#icon-instagram"></use></svg>
                 </a>
             </li>
             <li class="footer-twit">
               <a class="link-svg1" href="https://twitter.com" aria-label="twitter">
                 <svg class="icons" width="20" height="20">
-                  <use href="./images/social.svg#icon-twitter"></use></svg>
+                  <use href="./images/icons.svg#icon-twitter"></use></svg>
                 </a>
             </li>
             <li class="footer-fac">
               <a class="link-svg1" href="https://facebook.com" aria-label="facebook"> 
                 <svg class="icons" width="20" height="20">
-                  <use href="./images/social.svg#icon-facebook"></use></svg>
+                  <use href="./images/icons.svg#icon-facebook"></use></svg>
                 </a>
             </li>
             <li class="footer-lin">
               <a class="link-svg1" href="https://www.linkedin.com"  aria-label="linkedin">
                 <svg class="icons" width="20" height="20">
-                  <use href="./images/social.svg#icon-linkedin"></use></svg>
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg>
                 </a>
             </li>
           </ul>
@@ -382,11 +382,11 @@
           placeholder="E-mail" 
           required>
           </div>
-          <button class="button button-send" type="submit">
+          <button class="button-send" type="submit">
             <a class="send" href="https://web.telegram.org/">
              Підписатися
              <svg class="icon-send" width="24" height="24">
-              <use href="./images/icon-send.svg#icon-send"></use>
+              <use href="./images/icons.svg#icon-send"></use>
              </svg>
             </a>
           </button>
