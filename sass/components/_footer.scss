@@ -42,15 +42,14 @@ footer {
     color: var(--bs-white);
     text-decoration:none;
     transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--bs-blue);
+    }
     }
     
-    
-    .maps:hover,
-    .maps:focus {
-    color: var(--bs-blue);
-        
-        }
-    
+   
+ 
     
     
     .address-mail {
@@ -61,13 +60,13 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     text-decoration:none;
     transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--bs-blue);
+    }
     }
     
-    .address-mail:hover,
-    .address-mail:focus {
-        color: var(--bs-blue);
-        
-    } 
+    
     
     
     .address-tell { 
@@ -78,13 +77,13 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     text-decoration:none;
     transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--bs-blue);
+    }
     }
     
-    .address-tell:hover,
-    .address-tell:focus {
-    color: var(--bs-blue);  
-    
-    }
+   
     
     
     .check-email {
@@ -107,8 +106,7 @@ footer {
     color: #FFFFFF;
     }
     
-    
-   
+  
     
     .field-footer {
         width: 358px;
@@ -120,10 +118,10 @@ footer {
         padding-left: 16px;
         color: rgba(255, 255, 255, 0.6);
         transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,
+        &:focus {
+            cursor: pointer;
+    }
     }
     
-    .field-footer:focus,
-    .field-footer:hover {
-    cursor: pointer;
     
-    }
